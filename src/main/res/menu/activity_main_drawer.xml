@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/sync"
+            android:icon="@mipmap/ic_sync_black_24dp"
+            android:title="Synchronize" />
+        <item
+            android:id="@+id/manage_acc"
+            android:icon="@mipmap/ic_account_circle_black_24dp"
+            android:title="Manage Accounts" />
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="About" />
+    </group>
+
+
+
+</menu>

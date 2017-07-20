@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.teambhargavinilayam.abh.quizhuntadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:label="@string/admin_panel_string"
+        android:roundIcon="@mipmap/ic_home_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddQuestionActivity"
+            android:label="@string/title_activity_add_question"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.teambhargavinilayam.abh.quizhuntadmin.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShowAllQuestionsActivity"
+            android:label="@string/title_activity_show_all_questions"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.teambhargavinilayam.abh.quizhuntadmin.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditQuestionActivity"
+            android:label="@string/title_activity_edit_question"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.teambhargavinilayam.abh.quizhuntadmin.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DeleteQuestion"
+            android:label="@string/title_activity_delete_question"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.teambhargavinilayam.abh.quizhuntadmin.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

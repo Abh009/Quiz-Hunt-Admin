@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075657098920",
+    "project_id": "quiz-hunt-admin-174014"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075657098920:android:658da44363397516",
+        "android_client_info": {
+          "package_name": "in.teambhargavinilayam.abh.quizhuntadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075657098920-mqtvnb1kuhvqkt1o4hq99p7dl6n7d5gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.teambhargavinilayam.abh.quizhuntadmin",
+            "certificate_hash": "9c8a5450871e92c996bb7ed1bb3b667f9455d027"
+          }
+        },
+        {
+          "client_id": "1075657098920-dudnnie0dgrff4tckg9k7kcmo6f0ijmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALBv7x1o3s1k1ypHm2-nb942GdyNt2cFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
